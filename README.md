@@ -194,7 +194,7 @@ The project adheres to SOLID principles to ensure maintainable and scalable code
 
 Feel free to contact the author for any questions or feedback:
 
-Author: [Rostyslav]
+Author: [Rostyslav](https://www.linkedin.com/in/rostyslav-onyshchenko-7ab348281/)
 Email: [rospsix@gmail.com]
 # License ☑️
 This project is distributed under the MIT License. Feel free to modify and adapt it to your needs.
