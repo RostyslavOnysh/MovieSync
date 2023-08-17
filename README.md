@@ -31,7 +31,7 @@ The project includes the following key components and features:
 - Implementation of SOLID principles for maintainable and scalable code.
 - Detailed README.md providing project setup, installation, and configuration instructions.
 
-# Requirements ⚠️
+# Requirements  ⚠️
 Before starting work on the project, make sure you have the following components installed:
 
 - 🔺 Java Development Kit (JDK) version 11 or higher.
