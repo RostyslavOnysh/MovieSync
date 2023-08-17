@@ -1,4 +1,4 @@
-# Movie-Sync Project  🎯:shipit::shipit:
+#  :shipit: Movie-Sync Project
 
 ## Project Description 🚀
 - [Description](#description)
