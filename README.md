@@ -31,7 +31,7 @@ The project includes the following key components and features:
 - Implementation of SOLID principles for maintainable and scalable code.
 - Detailed README.md providing project setup, installation, and configuration instructions.
 
-# Requirements 🔺⚠️
+# Requirements ⚠️
 Before starting work on the project, make sure you have the following components installed:
 
 - 🔺 Java Development Kit (JDK) version 11 or higher.
@@ -146,6 +146,7 @@ Follow these steps to install and run the project:
 1. Clone the repository:
    ```shell
    git clone git@github.com:RostyslavOnysh/MovieSync.git
+   ```
    
 
 # Connection class 📡
@@ -185,11 +186,11 @@ The PasswordMatcher class is used for password matching. The @MatchPassword anno
 
 
 
-# SOLID Principles
+# SOLID Principles ⚙️
 
 The project adheres to SOLID principles to ensure maintainable and scalable code. It includes appropriate separation of concerns, interfaces, and dependency injection to promote modularity and flexibility.
 
-# Contact ♨️
+# Contact ♨️📬
 
 Feel free to contact the author for any questions or feedback:
 
