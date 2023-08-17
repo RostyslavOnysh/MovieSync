@@ -10,10 +10,10 @@
 - [Contact](#contact)
 - [License](#license)
 
-## Description
+## Description 📁 
 This project showcases a Spring-based web application that focuses on user authentication, authorization, and data management. It employs Spring Security for user authentication and access control, Hibernate for database management, and includes features like email validation and password matching.
 
-## Project Overview
+## Project Overview  📖 📝
 The project includes the following key components and features:
 - User registration and login using Spring Security.
 - Email validation and password matching.
@@ -23,7 +23,7 @@ The project includes the following key components and features:
 - Implementation of SOLID principles for maintainable and scalable code.
 - Detailed README.md providing project setup, installation, and configuration instructions.
 
-## Requirements
+## Requirements 🔺⚠️
 Before starting work on the project, make sure you have the following components installed:
 
 - 🔺 Java Development Kit (JDK) version 11 or higher.
@@ -155,13 +155,14 @@ hibernate.hbm2ddl.auto=create
 hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
  
-# Configuration :
+# Configuration : ⚠️
 
 The project is configured with 
 - Spring
 - Spring Security 
 - Hibernate 
 - and other dependencies. The ***pom.xml*** file contains detailed configurations for these dependencies.
+- 
  #  Email and Password Validation 🔧
 
 The project includes email validation and password matching. For email validation, a custom annotation @Email is used, and for password matching, @MatchPassword annotation is used. Details can be found in respective classes.
