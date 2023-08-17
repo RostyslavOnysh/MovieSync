@@ -1,10 +1,10 @@
 package spring.security.project.service.impl;
 
 import java.util.List;
+import org.springframework.stereotype.Service;
 import spring.security.project.dao.CinemaHallDao;
 import spring.security.project.model.CinemaHall;
 import spring.security.project.service.CinemaHallService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class CinemaHallServiceImpl implements CinemaHallService {

@@ -1,5 +1,12 @@
 package spring.security.project.controller;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import spring.security.project.dto.response.ShoppingCartResponseDto;
 import spring.security.project.model.MovieSession;
 import spring.security.project.model.ShoppingCart;
@@ -8,13 +15,6 @@ import spring.security.project.service.MovieSessionService;
 import spring.security.project.service.ShoppingCartService;
 import spring.security.project.service.UserService;
 import spring.security.project.service.mapper.ResponseDtoMapper;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/shopping-carts")

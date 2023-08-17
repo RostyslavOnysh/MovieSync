@@ -2,17 +2,17 @@ package spring.security.project.controller;
 
 import java.util.List;
 import javax.validation.Valid;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import spring.security.project.dto.request.CinemaHallRequestDto;
 import spring.security.project.dto.response.CinemaHallResponseDto;
 import spring.security.project.model.CinemaHall;
 import spring.security.project.service.CinemaHallService;
 import spring.security.project.service.mapper.RequestDtoMapper;
 import spring.security.project.service.mapper.ResponseDtoMapper;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/cinema-halls")

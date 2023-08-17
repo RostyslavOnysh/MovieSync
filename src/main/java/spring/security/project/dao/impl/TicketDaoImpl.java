@@ -1,10 +1,10 @@
 package spring.security.project.dao.impl;
 
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
 import spring.security.project.dao.AbstractDao;
 import spring.security.project.dao.TicketDao;
 import spring.security.project.model.Ticket;
-import org.hibernate.SessionFactory;
-import org.springframework.stereotype.Repository;
 
 @Repository
 public class TicketDaoImpl extends AbstractDao<Ticket> implements TicketDao {

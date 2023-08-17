@@ -1,14 +1,14 @@
 package spring.security.project.dao.impl;
 
 import java.util.Optional;
-import spring.security.project.dao.AbstractDao;
-import spring.security.project.dao.UserDao;
-import spring.security.project.exception.DataProcessingException;
-import spring.security.project.model.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
+import spring.security.project.dao.AbstractDao;
+import spring.security.project.dao.UserDao;
+import spring.security.project.exception.DataProcessingException;
+import spring.security.project.model.User;
 
 @Repository
 public class UserDaoImpl extends AbstractDao<User> implements UserDao {

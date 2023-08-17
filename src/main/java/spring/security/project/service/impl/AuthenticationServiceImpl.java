@@ -1,12 +1,12 @@
 package spring.security.project.service.impl;
 
 import java.util.Set;
+import org.springframework.stereotype.Service;
 import spring.security.project.model.Role;
 import spring.security.project.model.User;
 import spring.security.project.service.AuthenticationService;
 import spring.security.project.service.ShoppingCartService;
 import spring.security.project.service.UserService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {

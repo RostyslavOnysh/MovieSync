@@ -1,10 +1,10 @@
 package spring.security.project.dao.impl;
 
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
 import spring.security.project.dao.AbstractDao;
 import spring.security.project.dao.MovieDao;
 import spring.security.project.model.Movie;
-import org.hibernate.SessionFactory;
-import org.springframework.stereotype.Repository;
 
 @Repository
 public class MovieDaoImpl extends AbstractDao<Movie> implements MovieDao {

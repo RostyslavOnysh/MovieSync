@@ -1,9 +1,9 @@
 package spring.security.project.service.mapper;
 
+import org.springframework.stereotype.Component;
 import spring.security.project.dto.response.ShoppingCartResponseDto;
 import spring.security.project.model.ShoppingCart;
 import spring.security.project.model.Ticket;
-import org.springframework.stereotype.Component;
 
 @Component
 public class ShoppingCartMapper implements

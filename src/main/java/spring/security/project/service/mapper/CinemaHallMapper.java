@@ -1,9 +1,9 @@
 package spring.security.project.service.mapper;
 
+import org.springframework.stereotype.Component;
 import spring.security.project.dto.request.CinemaHallRequestDto;
 import spring.security.project.dto.response.CinemaHallResponseDto;
 import spring.security.project.model.CinemaHall;
-import org.springframework.stereotype.Component;
 
 @Component
 public class CinemaHallMapper implements RequestDtoMapper<CinemaHallRequestDto, CinemaHall>,

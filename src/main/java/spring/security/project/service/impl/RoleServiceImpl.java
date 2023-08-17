@@ -1,10 +1,10 @@
 package spring.security.project.service.impl;
 
 import java.util.NoSuchElementException;
+import org.springframework.stereotype.Service;
 import spring.security.project.dao.RoleDao;
 import spring.security.project.model.Role;
 import spring.security.project.service.RoleService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class RoleServiceImpl implements RoleService {

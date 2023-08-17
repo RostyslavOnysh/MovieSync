@@ -1,5 +1,6 @@
 package spring.security.project.service.impl;
 
+import org.springframework.stereotype.Service;
 import spring.security.project.dao.ShoppingCartDao;
 import spring.security.project.dao.TicketDao;
 import spring.security.project.model.MovieSession;
@@ -7,7 +8,6 @@ import spring.security.project.model.ShoppingCart;
 import spring.security.project.model.Ticket;
 import spring.security.project.model.User;
 import spring.security.project.service.ShoppingCartService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class ShoppingCartServiceImpl implements ShoppingCartService {

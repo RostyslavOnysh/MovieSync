@@ -1,13 +1,13 @@
 package spring.security.project.controller;
 
-import spring.security.project.dto.response.UserResponseDto;
-import spring.security.project.model.User;
-import spring.security.project.service.UserService;
-import spring.security.project.service.mapper.ResponseDtoMapper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import spring.security.project.dto.response.UserResponseDto;
+import spring.security.project.model.User;
+import spring.security.project.service.UserService;
+import spring.security.project.service.mapper.ResponseDtoMapper;
 
 @RestController
 @RequestMapping("/users")

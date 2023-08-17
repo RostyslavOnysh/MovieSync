@@ -1,13 +1,13 @@
 package spring.security.project.dao.impl;
 
 import java.util.Optional;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.stereotype.Repository;
 import spring.security.project.dao.AbstractDao;
 import spring.security.project.dao.RoleDao;
 import spring.security.project.exception.DataProcessingException;
 import spring.security.project.model.Role;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.springframework.stereotype.Repository;
 
 @Repository
 public class RoleDaoImpl extends AbstractDao<Role> implements RoleDao {

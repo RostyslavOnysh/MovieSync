@@ -1,14 +1,14 @@
 package spring.security.project.controller;
 
 import javax.validation.Valid;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 import spring.security.project.dto.request.UserRequestDto;
 import spring.security.project.dto.response.UserResponseDto;
 import spring.security.project.model.User;
 import spring.security.project.service.AuthenticationService;
 import spring.security.project.service.mapper.ResponseDtoMapper;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AuthenticationController {

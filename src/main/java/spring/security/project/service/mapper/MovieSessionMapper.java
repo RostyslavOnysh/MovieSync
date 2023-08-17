@@ -1,11 +1,11 @@
 package spring.security.project.service.mapper;
 
+import org.springframework.stereotype.Component;
 import spring.security.project.dto.request.MovieSessionRequestDto;
 import spring.security.project.dto.response.MovieSessionResponseDto;
 import spring.security.project.model.MovieSession;
 import spring.security.project.service.CinemaHallService;
 import spring.security.project.service.MovieService;
-import org.springframework.stereotype.Component;
 
 @Component
 public class MovieSessionMapper implements RequestDtoMapper<MovieSessionRequestDto, MovieSession>,

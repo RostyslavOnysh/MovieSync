@@ -2,10 +2,10 @@ package spring.security.project.service.impl;
 
 import java.time.LocalDate;
 import java.util.List;
+import org.springframework.stereotype.Service;
 import spring.security.project.dao.MovieSessionDao;
 import spring.security.project.model.MovieSession;
 import spring.security.project.service.MovieSessionService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class MovieSessionServiceImpl implements MovieSessionService {

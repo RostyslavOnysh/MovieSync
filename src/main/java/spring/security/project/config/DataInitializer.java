@@ -2,11 +2,11 @@ package spring.security.project.config;
 
 import java.util.Set;
 import javax.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
 import spring.security.project.model.Role;
 import spring.security.project.model.User;
 import spring.security.project.service.RoleService;
 import spring.security.project.service.UserService;
-import org.springframework.stereotype.Component;
 
 @Component
 public class DataInitializer {

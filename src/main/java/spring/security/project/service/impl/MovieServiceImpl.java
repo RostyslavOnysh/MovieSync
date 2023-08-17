@@ -1,10 +1,10 @@
 package spring.security.project.service.impl;
 
 import java.util.List;
+import org.springframework.stereotype.Service;
 import spring.security.project.dao.MovieDao;
 import spring.security.project.model.Movie;
 import spring.security.project.service.MovieService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class MovieServiceImpl implements MovieService {

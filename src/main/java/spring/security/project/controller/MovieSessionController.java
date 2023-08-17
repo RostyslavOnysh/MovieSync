@@ -3,13 +3,6 @@ package spring.security.project.controller;
 import java.time.LocalDate;
 import java.util.List;
 import javax.validation.Valid;
-import spring.security.project.dto.request.MovieSessionRequestDto;
-import spring.security.project.dto.response.MovieSessionResponseDto;
-import spring.security.project.model.MovieSession;
-import spring.security.project.service.MovieSessionService;
-import spring.security.project.service.mapper.RequestDtoMapper;
-import spring.security.project.service.mapper.ResponseDtoMapper;
-import spring.security.project.util.DateTimePatternUtil;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,6 +13,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import spring.security.project.dto.request.MovieSessionRequestDto;
+import spring.security.project.dto.response.MovieSessionResponseDto;
+import spring.security.project.model.MovieSession;
+import spring.security.project.service.MovieSessionService;
+import spring.security.project.service.mapper.RequestDtoMapper;
+import spring.security.project.service.mapper.ResponseDtoMapper;
+import spring.security.project.util.DateTimePatternUtil;
 
 @RestController
 @RequestMapping("/movie-sessions")
