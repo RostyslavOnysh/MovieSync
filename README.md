@@ -1,9 +1,4 @@
-# Movie-Sync Project
-
-
-# 🎯 Features
-⚠️ License
-
+# Movie-Sync Project  🎯:shipit::shipit:
 
 ## Project Description 🚀
 - [Description](#description)
@@ -31,25 +26,25 @@ The project includes the following key components and features:
 ## Requirements
 Before starting work on the project, make sure you have the following components installed:
 
-🔺 Java Development Kit (JDK) version 11 or higher.
-🔺 Maven (4.0.0): Tool for project building and dependency management.
-🔺 Git
-🔺 MySQL: Database used for data storage.
-🔺 Properly configured pom.xml file containing the following dependencies :
-spring-context
-spring-orm
-spring-webmvc
-commons-dbcp2
-hibernate-core
-hibernate-java8
-mysql-connector-java
-javax.servlet-api
-jackson-databind
-jackson-datatype-jsr310
-hibernate-validator
-spring-security-core
-spring-security-config
-spring-security-web
+- 🔺 Java Development Kit (JDK) version 11 or higher.
+- 🔺 Maven (4.0.0): Tool for project building and dependency management.
+- 🔺 Git
+- 🔺 MySQL: Database used for data storage.
+- 🔺 Properly configured pom.xml file containing the following dependencies :
+* spring-context
+* spring-orm
+* spring-webmvc
+* commons-dbcp2
+* hibernate-core
+* hibernate-java8
+* mysql-connector-java
+* javax.servlet-api
+* jackson-databind
+* jackson-datatype-jsr310
+* hibernate-validator
+* spring-security-core
+* spring-security-config
+* spring-security-web
 
 ```xml
 <dependencies>
@@ -160,7 +155,7 @@ hibernate.hbm2ddl.auto=create
 hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
  
-# Configuration
+# Configuration :
 
 The project is configured with 
 - Spring
